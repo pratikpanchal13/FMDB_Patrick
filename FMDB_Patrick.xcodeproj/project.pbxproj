@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231AAF7338A83BF92A106A8C /* Pods_FMDB_PatrickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3CB9A15E7455894B068EE6 /* Pods_FMDB_PatrickUITests.framework */; };
+		6B3453EE3C093AB0B1FC9FE4 /* Pods_FMDB_Patrick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B6A51CB08F69DB96C7788F /* Pods_FMDB_Patrick.framework */; };
+		A98F834D1ED2D5540058087A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F834C1ED2D5540058087A /* AppDelegate.swift */; };
+		A98F834F1ED2D5540058087A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F834E1ED2D5540058087A /* ViewController.swift */; };
+		A98F83521ED2D5540058087A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98F83501ED2D5540058087A /* Main.storyboard */; };
+		A98F83541ED2D5550058087A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98F83531ED2D5550058087A /* Assets.xcassets */; };
+		A98F83571ED2D5550058087A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98F83551ED2D5550058087A /* LaunchScreen.storyboard */; };
+		A98F83621ED2D5550058087A /* FMDB_PatrickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F83611ED2D5550058087A /* FMDB_PatrickTests.swift */; };
+		A98F836D1ED2D5550058087A /* FMDB_PatrickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F836C1ED2D5550058087A /* FMDB_PatrickUITests.swift */; };
+		A98F83831ED2DA190058087A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F83821ED2DA190058087A /* Utility.swift */; };
+		A98F838A1ED2DB3A0058087A /* Student.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A98F83891ED2DB3A0058087A /* Student.sqlite */; };
+		A98F838D1ED2DB720058087A /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F838C1ED2DB720058087A /* StudentInfo.swift */; };
+		A9A207DF1ED2DF3000FE6F78 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A207DE1ED2DF3000FE6F78 /* libsqlite3.0.tbd */; };
+		A9A207E81ED2E2B900FE6F78 /* StudentHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A207E71ED2E2B900FE6F78 /* StudentHomeVC.swift */; };
+		A9A207EA1ED2E2C600FE6F78 /* StudentInsertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A207E91ED2E2C600FE6F78 /* StudentInsertVC.swift */; };
+		A9A207EC1ED2E68B00FE6F78 /* PKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A207EB1ED2E68B00FE6F78 /* PKUtility.swift */; };
+		A9A207F01ED300B400FE6F78 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A207EF1ED300B400FE6F78 /* ModelManager.swift */; };
+		AA39A5F4C1156B342CFF6C85 /* Pods_FMDB_PatrickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611F3B98CD738A909DC6476F /* Pods_FMDB_PatrickTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A98F835E1ED2D5550058087A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98F83411ED2D5540058087A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98F83481ED2D5540058087A;
+			remoteInfo = FMDB_Patrick;
+		};
+		A98F83691ED2D5550058087A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98F83411ED2D5540058087A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98F83481ED2D5540058087A;
+			remoteInfo = FMDB_Patrick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFDE9FB0DB005E2CF28E2FD /* Pods-FMDB_PatrickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB_PatrickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB_PatrickTests/Pods-FMDB_PatrickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		611F3B98CD738A909DC6476F /* Pods_FMDB_PatrickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMDB_PatrickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA923446C17448CAC2839AD /* Pods-FMDB_Patrick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB_Patrick.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB_Patrick/Pods-FMDB_Patrick.release.xcconfig"; sourceTree = "<group>"; };
+		A443D4264C4E11EF35CCE017 /* Pods-FMDB_PatrickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB_PatrickUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB_PatrickUITests/Pods-FMDB_PatrickUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A98F83491ED2D5540058087A /* FMDB_Patrick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDB_Patrick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98F834C1ED2D5540058087A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98F834E1ED2D5540058087A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A98F83511ED2D5540058087A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98F83531ED2D5550058087A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98F83561ED2D5550058087A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98F83581ED2D5550058087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98F835D1ED2D5550058087A /* FMDB_PatrickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDB_PatrickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98F83611ED2D5550058087A /* FMDB_PatrickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDB_PatrickTests.swift; sourceTree = "<group>"; };
+		A98F83631ED2D5550058087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98F83681ED2D5550058087A /* FMDB_PatrickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDB_PatrickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98F836C1ED2D5550058087A /* FMDB_PatrickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDB_PatrickUITests.swift; sourceTree = "<group>"; };
+		A98F836E1ED2D5550058087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98F83821ED2DA190058087A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A98F83891ED2DB3A0058087A /* Student.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Student.sqlite; sourceTree = "<group>"; };
+		A98F838C1ED2DB720058087A /* StudentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
+		A9A207DE1ED2DF3000FE6F78 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A9A207E41ED2E08700FE6F78 /* FMDB-Patrick-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDB-Patrick-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9A207E71ED2E2B900FE6F78 /* StudentHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentHomeVC.swift; sourceTree = "<group>"; };
+		A9A207E91ED2E2C600FE6F78 /* StudentInsertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInsertVC.swift; sourceTree = "<group>"; };
+		A9A207EB1ED2E68B00FE6F78 /* PKUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKUtility.swift; sourceTree = "<group>"; };
+		A9A207EF1ED300B400FE6F78 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		BA383163FE32FF3B7729450F /* Pods-FMDB_PatrickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB_PatrickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB_PatrickTests/Pods-FMDB_PatrickTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD3CB9A15E7455894B068EE6 /* Pods_FMDB_PatrickUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMDB_PatrickUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14F18A6CAC1314D12FC91FE /* Pods-FMDB_Patrick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB_Patrick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB_Patrick/Pods-FMDB_Patrick.debug.xcconfig"; sourceTree = "<group>"; };
+		DECD04A702A41C0886A179B1 /* Pods-FMDB_PatrickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB_PatrickUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB_PatrickUITests/Pods-FMDB_PatrickUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0B6A51CB08F69DB96C7788F /* Pods_FMDB_Patrick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FMDB_Patrick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98F83461ED2D5540058087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A207DF1ED2DF3000FE6F78 /* libsqlite3.0.tbd in Frameworks */,
+				6B3453EE3C093AB0B1FC9FE4 /* Pods_FMDB_Patrick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F835A1ED2D5550058087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA39A5F4C1156B342CFF6C85 /* Pods_FMDB_PatrickTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F83651ED2D5550058087A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231AAF7338A83BF92A106A8C /* Pods_FMDB_PatrickUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C049B5F016E05486223B25F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D14F18A6CAC1314D12FC91FE /* Pods-FMDB_Patrick.debug.xcconfig */,
+				8FA923446C17448CAC2839AD /* Pods-FMDB_Patrick.release.xcconfig */,
+				0EFDE9FB0DB005E2CF28E2FD /* Pods-FMDB_PatrickTests.debug.xcconfig */,
+				BA383163FE32FF3B7729450F /* Pods-FMDB_PatrickTests.release.xcconfig */,
+				A443D4264C4E11EF35CCE017 /* Pods-FMDB_PatrickUITests.debug.xcconfig */,
+				DECD04A702A41C0886A179B1 /* Pods-FMDB_PatrickUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A98F83401ED2D5540058087A = {
+			isa = PBXGroup;
+			children = (
+				A98F834B1ED2D5540058087A /* FMDB_Patrick */,
+				A98F83601ED2D5550058087A /* FMDB_PatrickTests */,
+				A98F836B1ED2D5550058087A /* FMDB_PatrickUITests */,
+				A98F834A1ED2D5540058087A /* Products */,
+				7C049B5F016E05486223B25F /* Pods */,
+				B3101DD843FE307FC2BAC898 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A98F834A1ED2D5540058087A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98F83491ED2D5540058087A /* FMDB_Patrick.app */,
+				A98F835D1ED2D5550058087A /* FMDB_PatrickTests.xctest */,
+				A98F83681ED2D5550058087A /* FMDB_PatrickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98F834B1ED2D5540058087A /* FMDB_Patrick */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207ED1ED300B400FE6F78 /* FMDB CLASS PATRICK */,
+				A98F83881ED2DB2D0058087A /* Database */,
+				A98F837C1ED2D9DD0058087A /* Constant */,
+				A98F837D1ED2D9DD0058087A /* Controller */,
+				A98F837E1ED2D9DD0058087A /* Model */,
+				A98F837F1ED2D9DD0058087A /* Third Party */,
+				A98F83801ED2D9DD0058087A /* Utility */,
+				A98F83811ED2D9DD0058087A /* View */,
+				A98F834C1ED2D5540058087A /* AppDelegate.swift */,
+				A98F834E1ED2D5540058087A /* ViewController.swift */,
+				A98F83501ED2D5540058087A /* Main.storyboard */,
+				A98F83531ED2D5550058087A /* Assets.xcassets */,
+				A98F83551ED2D5550058087A /* LaunchScreen.storyboard */,
+				A98F83581ED2D5550058087A /* Info.plist */,
+				A9A207E41ED2E08700FE6F78 /* FMDB-Patrick-Bridging-Header.h */,
+			);
+			path = FMDB_Patrick;
+			sourceTree = "<group>";
+		};
+		A98F83601ED2D5550058087A /* FMDB_PatrickTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98F83611ED2D5550058087A /* FMDB_PatrickTests.swift */,
+				A98F83631ED2D5550058087A /* Info.plist */,
+			);
+			path = FMDB_PatrickTests;
+			sourceTree = "<group>";
+		};
+		A98F836B1ED2D5550058087A /* FMDB_PatrickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A98F836C1ED2D5550058087A /* FMDB_PatrickUITests.swift */,
+				A98F836E1ED2D5550058087A /* Info.plist */,
+			);
+			path = FMDB_PatrickUITests;
+			sourceTree = "<group>";
+		};
+		A98F837C1ED2D9DD0058087A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A98F837D1ED2D9DD0058087A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207E51ED2E29400FE6F78 /* StudentHomeVC */,
+				A9A207E61ED2E29400FE6F78 /* StudentInsertVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A98F837E1ED2D9DD0058087A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A98F838B1ED2DB720058087A /* Student */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A98F837F1ED2D9DD0058087A /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		A98F83801ED2D9DD0058087A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A98F83821ED2DA190058087A /* Utility.swift */,
+				A9A207EB1ED2E68B00FE6F78 /* PKUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A98F83811ED2D9DD0058087A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A98F83881ED2DB2D0058087A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A98F83891ED2DB3A0058087A /* Student.sqlite */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A98F838B1ED2DB720058087A /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				A98F838C1ED2DB720058087A /* StudentInfo.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		A9A207E51ED2E29400FE6F78 /* StudentHomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207E71ED2E2B900FE6F78 /* StudentHomeVC.swift */,
+			);
+			path = StudentHomeVC;
+			sourceTree = "<group>";
+		};
+		A9A207E61ED2E29400FE6F78 /* StudentInsertVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207E91ED2E2C600FE6F78 /* StudentInsertVC.swift */,
+			);
+			path = StudentInsertVC;
+			sourceTree = "<group>";
+		};
+		A9A207ED1ED300B400FE6F78 /* FMDB CLASS PATRICK */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207EE1ED300B400FE6F78 /* FMDB Model */,
+			);
+			path = "FMDB CLASS PATRICK";
+			sourceTree = "<group>";
+		};
+		A9A207EE1ED300B400FE6F78 /* FMDB Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207EF1ED300B400FE6F78 /* ModelManager.swift */,
+			);
+			path = "FMDB Model";
+			sourceTree = "<group>";
+		};
+		B3101DD843FE307FC2BAC898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9A207DE1ED2DF3000FE6F78 /* libsqlite3.0.tbd */,
+				F0B6A51CB08F69DB96C7788F /* Pods_FMDB_Patrick.framework */,
+				611F3B98CD738A909DC6476F /* Pods_FMDB_PatrickTests.framework */,
+				BD3CB9A15E7455894B068EE6 /* Pods_FMDB_PatrickUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98F83481ED2D5540058087A /* FMDB_Patrick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98F83711ED2D5550058087A /* Build configuration list for PBXNativeTarget "FMDB_Patrick" */;
+			buildPhases = (
+				0AE353B89FB9A5E5751F0ADF /* [CP] Check Pods Manifest.lock */,
+				A98F83451ED2D5540058087A /* Sources */,
+				A98F83461ED2D5540058087A /* Frameworks */,
+				A98F83471ED2D5540058087A /* Resources */,
+				013168A915CE7915E8F9F667 /* [CP] Embed Pods Frameworks */,
+				D962ECA77A4F0294FCAF6E19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB_Patrick;
+			productName = FMDB_Patrick;
+			productReference = A98F83491ED2D5540058087A /* FMDB_Patrick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98F835C1ED2D5550058087A /* FMDB_PatrickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98F83741ED2D5550058087A /* Build configuration list for PBXNativeTarget "FMDB_PatrickTests" */;
+			buildPhases = (
+				2FAF2B6DBC0DBF3AC9288D4A /* [CP] Check Pods Manifest.lock */,
+				A98F83591ED2D5550058087A /* Sources */,
+				A98F835A1ED2D5550058087A /* Frameworks */,
+				A98F835B1ED2D5550058087A /* Resources */,
+				BE18D430C4E9A716DB1145A1 /* [CP] Embed Pods Frameworks */,
+				8BAAD1B0480085E9398E711C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98F835F1ED2D5550058087A /* PBXTargetDependency */,
+			);
+			name = FMDB_PatrickTests;
+			productName = FMDB_PatrickTests;
+			productReference = A98F835D1ED2D5550058087A /* FMDB_PatrickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A98F83671ED2D5550058087A /* FMDB_PatrickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98F83771ED2D5550058087A /* Build configuration list for PBXNativeTarget "FMDB_PatrickUITests" */;
+			buildPhases = (
+				0AA1A5862450DBEEB47551AA /* [CP] Check Pods Manifest.lock */,
+				A98F83641ED2D5550058087A /* Sources */,
+				A98F83651ED2D5550058087A /* Frameworks */,
+				A98F83661ED2D5550058087A /* Resources */,
+				ED7DE21752E86DA69C8037CC /* [CP] Embed Pods Frameworks */,
+				0E768D6D9117268C29ADC0DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98F836A1ED2D5550058087A /* PBXTargetDependency */,
+			);
+			name = FMDB_PatrickUITests;
+			productName = FMDB_PatrickUITests;
+			productReference = A98F83681ED2D5550058087A /* FMDB_PatrickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98F83411ED2D5540058087A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A98F83481ED2D5540058087A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					A98F835C1ED2D5550058087A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A98F83481ED2D5540058087A;
+					};
+					A98F83671ED2D5550058087A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A98F83481ED2D5540058087A;
+					};
+				};
+			};
+			buildConfigurationList = A98F83441ED2D5540058087A /* Build configuration list for PBXProject "FMDB_Patrick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98F83401ED2D5540058087A;
+			productRefGroup = A98F834A1ED2D5540058087A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98F83481ED2D5540058087A /* FMDB_Patrick */,
+				A98F835C1ED2D5550058087A /* FMDB_PatrickTests */,
+				A98F83671ED2D5550058087A /* FMDB_PatrickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98F83471ED2D5540058087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98F83571ED2D5550058087A /* LaunchScreen.storyboard in Resources */,
+				A98F838A1ED2DB3A0058087A /* Student.sqlite in Resources */,
+				A98F83541ED2D5550058087A /* Assets.xcassets in Resources */,
+				A98F83521ED2D5540058087A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F835B1ED2D5550058087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F83661ED2D5550058087A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013168A915CE7915E8F9F667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB_Patrick/Pods-FMDB_Patrick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AA1A5862450DBEEB47551AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0AE353B89FB9A5E5751F0ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E768D6D9117268C29ADC0DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB_PatrickUITests/Pods-FMDB_PatrickUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FAF2B6DBC0DBF3AC9288D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BAAD1B0480085E9398E711C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB_PatrickTests/Pods-FMDB_PatrickTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE18D430C4E9A716DB1145A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB_PatrickTests/Pods-FMDB_PatrickTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D962ECA77A4F0294FCAF6E19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB_Patrick/Pods-FMDB_Patrick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7DE21752E86DA69C8037CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB_PatrickUITests/Pods-FMDB_PatrickUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98F83451ED2D5540058087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98F834F1ED2D5540058087A /* ViewController.swift in Sources */,
+				A9A207F01ED300B400FE6F78 /* ModelManager.swift in Sources */,
+				A9A207EC1ED2E68B00FE6F78 /* PKUtility.swift in Sources */,
+				A98F838D1ED2DB720058087A /* StudentInfo.swift in Sources */,
+				A9A207E81ED2E2B900FE6F78 /* StudentHomeVC.swift in Sources */,
+				A98F834D1ED2D5540058087A /* AppDelegate.swift in Sources */,
+				A9A207EA1ED2E2C600FE6F78 /* StudentInsertVC.swift in Sources */,
+				A98F83831ED2DA190058087A /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F83591ED2D5550058087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98F83621ED2D5550058087A /* FMDB_PatrickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F83641ED2D5550058087A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98F836D1ED2D5550058087A /* FMDB_PatrickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98F835F1ED2D5550058087A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98F83481ED2D5540058087A /* FMDB_Patrick */;
+			targetProxy = A98F835E1ED2D5550058087A /* PBXContainerItemProxy */;
+		};
+		A98F836A1ED2D5550058087A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98F83481ED2D5540058087A /* FMDB_Patrick */;
+			targetProxy = A98F83691ED2D5550058087A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98F83501ED2D5540058087A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98F83511ED2D5540058087A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A98F83551ED2D5550058087A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98F83561ED2D5550058087A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98F836F1ED2D5550058087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98F83701ED2D5550058087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98F83721ED2D5550058087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14F18A6CAC1314D12FC91FE /* Pods-FMDB_Patrick.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMDB_Patrick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indianic.FMDB-Patrick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/DATA/Pratik/Pratik /Swift 3.1/FMDB_Patrick/FMDB_Patrick/FMDB-Patrick-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A98F83731ED2D5550058087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA923446C17448CAC2839AD /* Pods-FMDB_Patrick.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMDB_Patrick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indianic.FMDB-Patrick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/DATA/Pratik/Pratik /Swift 3.1/FMDB_Patrick/FMDB_Patrick/FMDB-Patrick-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A98F83751ED2D5550058087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFDE9FB0DB005E2CF28E2FD /* Pods-FMDB_PatrickTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMDB_PatrickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indianic.FMDB-PatrickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB_Patrick.app/FMDB_Patrick";
+			};
+			name = Debug;
+		};
+		A98F83761ED2D5550058087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA383163FE32FF3B7729450F /* Pods-FMDB_PatrickTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMDB_PatrickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indianic.FMDB-PatrickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB_Patrick.app/FMDB_Patrick";
+			};
+			name = Release;
+		};
+		A98F83781ED2D5550058087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A443D4264C4E11EF35CCE017 /* Pods-FMDB_PatrickUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FMDB_PatrickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indianic.FMDB-PatrickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FMDB_Patrick;
+			};
+			name = Debug;
+		};
+		A98F83791ED2D5550058087A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECD04A702A41C0886A179B1 /* Pods-FMDB_PatrickUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FMDB_PatrickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indianic.FMDB-PatrickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FMDB_Patrick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98F83441ED2D5540058087A /* Build configuration list for PBXProject "FMDB_Patrick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98F836F1ED2D5550058087A /* Debug */,
+				A98F83701ED2D5550058087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98F83711ED2D5550058087A /* Build configuration list for PBXNativeTarget "FMDB_Patrick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98F83721ED2D5550058087A /* Debug */,
+				A98F83731ED2D5550058087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98F83741ED2D5550058087A /* Build configuration list for PBXNativeTarget "FMDB_PatrickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98F83751ED2D5550058087A /* Debug */,
+				A98F83761ED2D5550058087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98F83771ED2D5550058087A /* Build configuration list for PBXNativeTarget "FMDB_PatrickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98F83781ED2D5550058087A /* Debug */,
+				A98F83791ED2D5550058087A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98F83411ED2D5540058087A /* Project object */;
+}
